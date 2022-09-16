@@ -1,0 +1,118 @@
+body{
+    background-color: #eee
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background-color: rgb(0 0 0 / 58%);
+}
+.popup .close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 12px;
+    opacity: 1;
+}
+.popup form {
+    position: relative;
+    width: 450px;
+    color: white;
+    margin-top: 150px;
+    background-color: #7c7c7c;
+    padding: 25px;
+    border-radius: 25px;
+    height: 250px;
+    margin-left: 405px;
+}
+
+.edit-popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background-color: rgb(0 0 0 / 58%);
+}
+.edit-popup .edit-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 12px;
+    opacity: 1;
+}
+.edit-popup form {
+    position: relative;
+    width: 450px;
+    color: white;
+    margin-top: 150px;
+    background-color: #7c7c7c;
+    padding: 25px;
+    border-radius: 25px;
+    height: 250px;
+    margin-left: 405px;
+}
+.add-image-popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background-color: rgb(0 0 0 / 58%);
+}
+.add-image-popup .add-image-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 12px;
+    opacity: 1;
+}
+.add-image-popup form {
+    position: relative;
+    width: 450px;
+    color: white;
+    margin-top: 150px;
+    background-color: #7c7c7c;
+    padding: 25px;
+    border-radius: 25px;
+    height: 250px;
+    margin-left: 405px;
+}
+
+
+.delete-album-popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background-color: rgb(0 0 0 / 58%);
+}
+.delete-album-popup .delete-album-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 12px;
+    opacity: 1;
+}
+.delete-album-popup  {
+    width: 450px;
+    color: white;
+    margin-top: 150px;
+    background-color: #a5a4a4;
+    padding: 25px;
+    border-radius: 25px;
+    height: 350px;
+    margin-left: 405px;
+}
